@@ -1,7 +1,23 @@
 .bio {
-    border-width: 1px;
-    border-color: #333;
-    border-style: solid;
-    width: 50%;
-    padding: 2px;
+  margin: 10px;
+}
+
+.bio-header {
+  font-weight: bold;
+}
+
+
+.bio-body {
+  border-width: 1px;
+  border-color: #333;
+  border-style: solid;
+  padding: 10px;
+}
+
+.bio-body p:first-of-type {
+  margin-top: 0;
+}
+
+.bio-body p:last-of-type {
+  margin-bottom: 0;
 }

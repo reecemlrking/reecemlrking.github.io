@@ -1,7 +1,27 @@
 .header {
-    padding: 2px;
-    text-align: center;
-    background: #333;
-    color: white;
-    font-size: 25px;
+  padding: 2px;
+  text-align: center;
+  background: #333;
+  color: white;
+  font-size: 25px;
+}
+
+.socials {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials-image {
+  width: 40px;
+  height: 40px;
+}
+
+p {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
