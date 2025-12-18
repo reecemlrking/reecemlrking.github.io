@@ -1,47 +1,17 @@
-<div ngAccordionGroup class="basic-accordion" [multiExpandable]="false">
-  <h3>
-    <span ngAccordionTrigger panelId="q1" #trigger1="ngAccordionTrigger" [expanded]="true">
-      Which attribute tells assistive tech whether the panel is open or closed?
-      <span aria-hidden="true" class="expand-icon" [class.expand-icon__expanded]="trigger1.expanded()"></span>
-    </span>
-  </h3>
-  <div ngAccordionPanel panelId="q1">
-    <ng-template ngAccordionContent>
-      <p>
-        Use <code>aria-expanded</code> on the button element. Set it to "true" when the content
-        panel is visible and "false" when the content is hidden. This is a crucial state indicator
-        for screen reader users.
-      </p>
-    </ng-template>
-  </div>
-  <h3>
-    <span ngAccordionTrigger panelId="q2" #trigger2="ngAccordionTrigger">
-      How do you link the button to the content it controls?
-      <span aria-hidden="true" class="expand-icon" [class.expand-icon__expanded]="trigger2.expanded()"></span>
-    </span>
-  </h3>
-  <div ngAccordionPanel panelId="q2">
-    <ng-template ngAccordionContent>
-      <p>
-        Use the <code>aria-controls</code> attribute on the button, and set its value to match the
-        id of the related content panel. This establishes a programmatic relationship, allowing
-        assistive technologies to jump directly to the relevant content.
-      </p>
-    </ng-template>
-  </div>
-  <h3>
-    <span ngAccordionTrigger panelId="q3" #trigger3="ngAccordionTrigger">
-      What role should the heading element containing the accordion button have?
-      <span aria-hidden="true" class="expand-icon" [class.expand-icon__expanded]="trigger3.expanded()"></span>
-    </span>
-  </h3>
-  <div ngAccordionPanel panelId="q3">
-    <ng-template ngAccordionContent>
-      <p>
-        The element containing the button should typically have <code>role="heading"</code> with an
-        appropriate <code>aria-level</code> to define the structure. This ensures the accordion
-        section is recognized as a section header, making the page structure navigable for users.
-      </p>
-    </ng-template>
-  </div>
+<div class="languages">
+  <h1 class="languages-header">Languages</h1>
+  <h2 class="language-name"><img class="language-logo" src="images/c-logo.svg">C</h2>
+  <p class="language-body">C programming language</p>
+
+  <h2 class="language-name"><img class="language-logo" src="images/python.svg">Python</h2>
+
+  <h2 class="language-name"><img class="language-logo" src="images/java.svg">Java</h2>
+
+  <h2 class="language-name"><img class="language-logo" src="images/matlab.svg">Matlab</h2>
+
+  <h2 class="language-name"><img class="language-logo" src="images/js-logo.png">Javascript</h2>
+
+  <h2 class="language-name"><img class="language-logo" src="images/ts-logo.svg">Typescript</h2>
+
+  <h2 class="language-name riscv"><img class="language-logo" src="images/riscv.svg">RISC-V ASM</h2>
 </div>
