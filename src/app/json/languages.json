@@ -1,0 +1,37 @@
+[
+  {
+    "image_src": "/images/c-logo.svg",
+    "name": "C",
+    "details": "C is one of my favorite languages to work with. I first learned the language in 2022 for one of my courses. Some programs I've developed with the language are: "
+  },
+  {
+    "image_src": "/images/python.svg",
+    "name": "Python",
+    "details": "Python is the first language I learned, back in 2021. I learned it in an introductory CS course which I took to fill out my schedule. I very quickly fell in love with the language and programming in general and switched my degree to a Double Major in Computing Science and Physics. I've made numerous and varied projects in Python, from developing simple games (like Pong) to analyzing data for physics labs."
+  },
+  {
+    "image_src": "/images/java.svg",
+    "name": "Java",
+    "details": "I learned Java while developing an Andriod app for one of my classes."
+  },
+  {
+    "image_src": "/images/js-logo.png",
+    "name": "JavaScript",
+    "details": "I learned JavaScript on my own time in order to develop websites (including this one!)"
+  },
+  {
+    "image_src": "/images/ts-logo.svg",
+    "name": "TypeScript",
+    "details": "Much like JS, I learned TypeScript on my own time speciffically to develop this website."
+  },
+  {
+    "image_src": "/images/matlab.svg",
+    "name": "Matlab",
+    "details": "I learned Matlab for one of my courses focused on Numerical Methods. With it, I made image processing software, implemented matrix factoring algorithms, and implemented the logic for calculating a robot arm's joint angles."
+  },
+  {
+    "image_src": "/images/riscv.svg",
+    "name": "RISC-V ASM",
+    "details": "I learned RISC-V Assembly for one of my courses focused on Computer Systems and Architecture. I quickly fell in love with programming and thinking on such a low level. For the course I developed a string search program, a branch instruction fixing program, Conways game of life, and an RISC-V to ARM instruction translator."
+  }
+]

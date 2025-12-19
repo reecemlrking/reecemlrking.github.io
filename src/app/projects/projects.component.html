@@ -1,0 +1,9 @@
+<div class="projects">
+  <h1>Projects</h1>
+  <section class="projects-grid">
+    @for (project of projects; track $index) {
+    <app-project-details [project]="project" />
+    }
+
+  </section>
+</div>

@@ -1,0 +1,15 @@
+.project-details {
+  border: solid;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.project-image {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.project-body {
+  padding: .5em;
+}

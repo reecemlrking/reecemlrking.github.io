@@ -1,0 +1,10 @@
+.projects {
+  margin: 1em;
+}
+
+.projects-grid {
+  display: grid;
+  row-gap: 2em;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+  justify-content: left;
+}
