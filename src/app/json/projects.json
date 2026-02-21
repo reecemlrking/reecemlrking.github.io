@@ -3,5 +3,16 @@
     "image_src": "/images/project-images/personal-site.png",
     "name": "Personal Website",
     "details": "You're looking at it :)"
+  },
+  {
+    "image_src": "/images/project-images/aeraelia_map.jpg",
+    "name": "Aeraelia Wiki",
+    "details": "A wiki for my D&D setting"
+  },
+  {
+    "image_src": "/images/project-images/pong.jpg",
+    "name": "Pong",
+    "details": "OpenGL pong developed in c++"
   }
 ]
+

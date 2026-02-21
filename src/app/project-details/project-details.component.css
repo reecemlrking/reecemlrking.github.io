@@ -6,6 +6,7 @@
 
 .project-image {
   width: 100%;
+  height: max-content;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
