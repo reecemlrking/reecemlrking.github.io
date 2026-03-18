@@ -21,7 +21,7 @@ jobs:
 
     - name: Deploy to gh pages
       run: |
-          npx angular-cli-ghpages --dir=dist/personal-site --no-silent
+          npx angular-cli-ghpages --dir=dist/personal-site --no-silent --name="reecemlrking" --email="reeceking9922@gmail.com"
       env:
         CI: true
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
