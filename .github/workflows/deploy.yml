@@ -25,4 +25,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # Use the repository secret
       run: |
-        npm run ng -- deploy --base-href=/reecemlrking.github.io/ --name="reecemlrking" --email="reeceking9922@gmail.com:"
+        npm run ng -- deploy --base-href=//${{ secrets.MY_PAT }}@github.com/ --name="reecemlrking" --email="reeceking9922@gmail.com:"
