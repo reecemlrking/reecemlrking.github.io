@@ -2,17 +2,20 @@
   {
     "image_src": "/images/project-images/personal-site.png",
     "name": "Personal Website",
-    "details": "You're looking at it :)"
+    "details": "You're looking at it :)",
+    "repo": "https://github.com/reecemlrking/reecemlrking.github.io"
   },
   {
     "image_src": "/images/project-images/aeraelia_map.jpg",
     "name": "Aeraelia Wiki",
-    "details": "A wiki for my D&D setting"
+    "details": "A wiki for my D&D setting",
+    "repo": "https://github.com/reecemlrking/Aeraelia"
   },
   {
     "image_src": "/images/project-images/pong.jpg",
-    "name": "Pong",
-    "details": "OpenGL pong developed in c++"
+    "name": "PonGLe",
+    "details": "OpenGL pong developed in c++",
+    "repo": "https://github.com/reecemlrking/PonGLe"
   }
 ]
 
